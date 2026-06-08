@@ -1,0 +1,9 @@
+@layer theme, base, mui, components, utilities;
+@import "tailwindcss";
+
+body {
+    background-color: #D0C0A7;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
