@@ -98,8 +98,11 @@ const FollowingFlights = () => {
              onSubmit={handleSubmit(onSubmit)}
              sx={{
                gap: 2,
-               mt: 2,
-               p: 3,
+               my: 4,
+               p: 4,
+               backgroundColor: '#EBE6D2',
+               border: '2px solid black',
+               borderRadius: 4,
              }}
              className={"flex-col flex justify-center items-center"}
         >
