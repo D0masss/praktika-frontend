@@ -1,7 +1,7 @@
 import {Alert, Autocomplete, Box, Button, Container, Snackbar, TextField, Typography} from "@mui/material";
 import { useState } from "react";
 import {useMutation} from "@tanstack/react-query";
-import NavigationBar from "./NavigationBar.jsx";
+import NavigationBar from "../NavigationBar.jsx";
 
 const cities = [
   { id: 1, originCity: 'Vilnius', origin: 'VNO' },

@@ -2,7 +2,7 @@
 import Box from '@mui/material/Box';
 import { DataGrid } from '@mui/x-data-grid';
 import Container from "@mui/material/Container";
-import NavigationBar from "./NavigationBar.jsx";
+import NavigationBar from "../NavigationBar.jsx";
 import {Button, TextField, Typography} from "@mui/material";
 import {Controller, useForm} from "react-hook-form";
 import {useEffect, useState} from "react";
@@ -156,7 +156,7 @@ const FollowingFlights = () => {
 
       <Container maxWidth="md">
         <div className={"flex justify-center flex-col items-center mt-10"}>
-          <Typography variant={"h4"}>YOUR TRACKED FLIGHTS</Typography>
+          <Typography variant={"h4"}>TRACKED FLIGHTS</Typography>
           <div className={"mt-3"}>
             <DataGrid
               rows={rows}

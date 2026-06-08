@@ -1,7 +1,7 @@
 import {createBrowserRouter} from "react-router";
-import CitySelection from "./CitySelection.jsx";
-import FollowingFlights from "./FollowingFlights.jsx";
-import ErrorPage from "./ErrorPage.jsx";
+import CitySelection from "./pages/CitySelection.jsx";
+import FollowingFlights from "./pages/FollowingFlights.jsx";
+import ErrorPage from "./pages/ErrorPage.jsx";
 
 const AppRoutes = createBrowserRouter([
 

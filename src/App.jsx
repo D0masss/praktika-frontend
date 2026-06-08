@@ -1,5 +1,5 @@
 import './App.css'
-import CitySelection from "./CitySelection.jsx";
+import CitySelection from "./pages/CitySelection.jsx";
 import {CssBaseline} from "@mui/material";
 
 function App() {
