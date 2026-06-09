@@ -59,7 +59,7 @@ const FollowingFlights = () => {
         email: data.email
       }).toString();
 
-      const backendUrl = `/tracked-flights?${queryString}`;
+      const backendUrl = `/api/tracked-flights?${queryString}`;
       console.log("Sending to URL:", backendUrl);
 
       const response = await fetch(backendUrl);
