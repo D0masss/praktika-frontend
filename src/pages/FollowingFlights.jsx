@@ -9,13 +9,13 @@ import {useEffect, useState} from "react";
 
 const columns = [
   {
-    field: 'origin',
+    field: 'originCity',
     headerName: 'Origin city',
     sortable: false,
     width: 200
   },
   {
-    field: 'destination',
+    field: 'destinationCity',
     headerName: 'Destination city',
     sortable: false,
     width: 200
