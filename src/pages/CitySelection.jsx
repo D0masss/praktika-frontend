@@ -38,7 +38,7 @@ const CitySelection = () => {
 
   const mutation = useMutation({
     mutationFn: async (data) => {
-      const response = await fetch("http://63.184.22.134/search-flights", {
+      const response = await fetch("/search-flights", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
