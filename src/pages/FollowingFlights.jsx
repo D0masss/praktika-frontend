@@ -59,7 +59,7 @@ const FollowingFlights = () => {
         email: data.email
       }).toString();
 
-      const backendUrl = `http://localhost:8080/tracked-flights?${queryString}`;
+      const backendUrl = `http://63.184.22.134/tracked-flights?${queryString}`;
       console.log("Sending to URL:", backendUrl);
 
       const response = await fetch(backendUrl);
