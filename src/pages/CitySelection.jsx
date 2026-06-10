@@ -6,6 +6,10 @@ import NavigationBar from "../NavigationBar.jsx";
 const cities = [
   { id: 1, originCity: 'Vilnius', origin: 'VNO' },
   { id: 2, originCity: 'London', origin: 'LHR' },
+  { id: 3, originCity: 'Paris', origin: 'CDG'},
+  { id: 4, originCity: 'Berlin', origin: 'BER' },
+  { id: 5, originCity: 'Oslo', origin: 'OSL' },
+  { id: 6, originCity: 'Athens', origin: 'ATH' },
 ];
 
 const isEmailValid = (email) => /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(email);
