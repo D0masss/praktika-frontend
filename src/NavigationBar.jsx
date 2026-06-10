@@ -17,7 +17,7 @@ const NavigationBar = () => {
                 fontSize: "24px",
               }}
             >
-              City selection
+              Track a Flight
             </Link>
           </Typography>
 
@@ -31,7 +31,7 @@ const NavigationBar = () => {
                 fontSize: "24px",
               }}
             >
-              Track a Flight
+              Tracked Flights
             </Link>
           </Typography>
 
